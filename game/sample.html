@@ -1760,6 +1760,48 @@
             overlay.appendChild(closeBtn);
             overlay.appendChild(rotateHint);
 
+            // Ensure spinner CSS is present (only once)
+            if (!document.getElementById('mobile-game-spinner-style')) {
+                var ss = document.createElement('style');
+                ss.id = 'mobile-game-spinner-style';
+                ss.type = 'text/css';
+                ss.appendChild(document.createTextNode('\n                    .mobile-spinner{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:flex;align-items:center;justify-content:center;z-index:2147483647;pointer-events:none;}\n                    .mobile-spinner .dot{width:12px;height:12px;border-radius:50%;background:#fff;margin:6px;opacity:.2;transform:translateY(0);animation:mobile-dot 900ms infinite ease-in-out;}\n                    .mobile-spinner .dot:nth-child(2){animation-delay:120ms;}\n                    .mobile-spinner .dot:nth-child(3){animation-delay:240ms;}\n                    @keyframes mobile-dot{0%{opacity:.2;transform:translateY(0);}50%{opacity:1;transform:translateY(-8px);}100%{opacity:.2;transform:translateY(0);}}\n                '));
+                document.head.appendChild(ss);
+            }
+
+            // Loading spinner (three dots)
+            var spinner = document.createElement('div');
+            spinner.className = 'mobile-spinner';
+            spinner.id = 'mobile-game-spinner';
+            spinner.style.display = 'flex';
+            var d1 = document.createElement('span'); d1.className = 'dot';
+            var d2 = document.createElement('span'); d2.className = 'dot';
+            var d3 = document.createElement('span'); d3.className = 'dot';
+            spinner.appendChild(d1); spinner.appendChild(d2); spinner.appendChild(d3);
+            overlay.appendChild(spinner);
+
+            // Show spinner until iframe 'load' fires
+            var spinnerTimeout = null;
+            var hideSpinner = function () {
+                try { spinner.style.display = 'none'; } catch (e) {}
+                try { rotateHint.style.display = 'none'; } catch (e) {}
+                if (spinnerTimeout) { clearTimeout(spinnerTimeout); spinnerTimeout = null; }
+            };
+
+            iframe.addEventListener('load', function () {
+                // Delay slightly to allow rendering
+                setTimeout(hideSpinner, 150);
+            }, { passive: true });
+
+            // Fallback: if nothing loads after 30s, hide spinner and show hint
+            spinnerTimeout = setTimeout(function () {
+                try {
+                    rotateHint.textContent = 'Having trouble loading? Try again or check your connection.';
+                    rotateHint.style.display = 'block';
+                } catch (e) {}
+                try { spinner.style.display = 'none'; } catch (e) {}
+            }, 30000);
+
             // Append and lock scrolling
             document.body.appendChild(overlay);
             document.documentElement.style.overflow = 'hidden';
@@ -1819,6 +1861,10 @@
                     var exitFS = document.exitFullscreen || document.webkitExitFullscreen || document.msExitFullscreen;
                     if (exitFS) exitFS.call(document);
                 } catch (e) {}
+                // clear spinner timeout
+                try { if (spinnerTimeout) { clearTimeout(spinnerTimeout); spinnerTimeout = null; } } catch (e) {}
+                // remove injected style if present
+                try { var ss = document.getElementById('mobile-game-spinner-style'); if (ss && ss.parentNode) ss.parentNode.removeChild(ss); } catch (e) {}
                 if (overlay && overlay.parentNode) overlay.parentNode.removeChild(overlay);
                 document.documentElement.style.overflow = '';
                 document.body.style.overflow = '';

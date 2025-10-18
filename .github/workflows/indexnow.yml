@@ -42,7 +42,7 @@ jobs:
           payload = {
               "host": "basketball-games.io/",
               "key": key,
-              "keyLocation": f"https://basketball-games.io/{key}.txt",
+              "keyLocation": "https://basketball-games.io/{key}.txt",
               "urlList": urls
           }
 

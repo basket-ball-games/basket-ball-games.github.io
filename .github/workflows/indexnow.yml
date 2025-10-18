@@ -1,5 +1,4 @@
 name: IndexNow Submit
-
 on:
   workflow_dispatch:
   push:
@@ -10,44 +9,46 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
+      
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-
+      
       - name: Install dependencies
         run: pip install requests lxml
-
+      
       - name: Submit URLs from Sitemap to IndexNow
         run: |
           python - <<EOF
           import requests
           import json
           from lxml import etree
-
+          
           key = "2660e1a33beb4a35928e5d975641969e"
           sitemap_url = "https://basketball-games.io/sitemap.xml"
-
-          # sitemap fetch
+          
+          # Fetch sitemap
           r = requests.get(sitemap_url)
           r.raise_for_status()
-
-          # parse sitemap
+          
+          # Parse sitemap
           tree = etree.fromstring(r.content)
           ns = {"ns": "http://www.sitemaps.org/schemas/sitemap/0.9"}
           urls = [loc.text for loc in tree.xpath("//ns:loc", namespaces=ns)]
-
+          
+          # IndexNow API call
           endpoint = "https://api.indexnow.org/indexnow"
           payload = {
-              "host": "basketball-games.io/",
+              "host": "basketball-games.io",
               "key": key,
               "keyLocation": f"https://basketball-games.io/{key}.txt",
               "urlList": urls
           }
-
           headers = {"Content-Type": "application/json"}
+          
           resp = requests.post(endpoint, headers=headers, data=json.dumps(payload))
+          
           print("Total URLs found:", len(urls))
           print("Status Code:", resp.status_code)
           print("Response:", resp.text)

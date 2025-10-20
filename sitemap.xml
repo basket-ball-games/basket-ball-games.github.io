@@ -2,246 +2,419 @@
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
+<!-- Homepage -->
 <url>
   <loc>https://basketball-games.io/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
-<url>
-  <loc>https://basketball-games.io/game/basketball-stars/</loc>
-  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://basketball-games.io/game/basketball-superstars/</loc>
-  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://basketball-games.io/game/basketball-legends-2020/</loc>
-  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://basketball-games.io/game/basketball-frvr/</loc>
-  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://basketball-games.io/game/basket-champs/</loc>
-  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://basketball-games.io/game/blumgi-ball/</loc>
-  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://basketball-games.io/game/bouncy-basketball/</loc>
-  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://basketball-games.io/game/basket-monsterz/</loc>
-  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://basketball-games.io/game/street-ball-jam/</loc>
-  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://basketball-games.io/game/basketbros/</loc>
-  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://basketball-games.io/game/basket-random/</loc>
-  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+
+<!-- All Games -->
 <url>
   <loc>https://basketball-games.io/game/basket-and-ball/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basket-and-ball.webp</image:loc>
+  </image:image>
 </url>
-<url>
-  <loc>https://basketball-games.io/game/flipper-dunk-3d/</loc>
-  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://basketball-games.io/game/head-basketball/</loc>
-  <lastmod>2025-10-18T05:27:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://basketball-games.io/game/hoop-world-3d/</loc>
-  <lastmod>2025-10-18T05:27:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://basketball-games.io/game/jump-up-3d/</loc>
-  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://basketball-games.io/game/jump-up-3d-mini-basketball/</loc>
-  <lastmod>2025-10-18T05:27:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://basketball-games.io/game/noob-basketball-clicker/</loc>
-  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://basketball-games.io/game/rogue-dunk/</loc>
-  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://basketball-games.io/game/street-ball-star/</loc>
-  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://basketball-games.io/game/tap-tap-shots/</loc>
-  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+
 <url>
   <loc>https://basketball-games.io/game/basketball-clash/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basketball-clash.webp</image:loc>
+  </image:image>
 </url>
+
+<url>
+  <loc>https://basketball-games.io/game/basketball-frvr/</loc>
+  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basketball-frvr.webp</image:loc>
+  </image:image>
+</url>
+
 <url>
   <loc>https://basketball-games.io/game/basketball-io/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basketball-io.webp</image:loc>
+  </image:image>
 </url>
+
 <url>
   <loc>https://basketball-games.io/game/basketball-king/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basketball-king.webp</image:loc>
+  </image:image>
 </url>
+
 <url>
   <loc>https://basketball-games.io/game/basketball-league/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basketball-league.webp</image:loc>
+  </image:image>
 </url>
+
+<url>
+  <loc>https://basketball-games.io/game/basketball-legends-2020/</loc>
+  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basketball-legends-2020.webp</image:loc>
+  </image:image>
+</url>
+
 <url>
   <loc>https://basketball-games.io/game/basketball-orbit/</loc>
   <lastmod>2025-10-18T05:27:41+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basketball-orbit.webp</image:loc>
+  </image:image>
 </url>
+
 <url>
   <loc>https://basketball-games.io/game/basketball-serial-shooter/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basketball-serial-shooter.webp</image:loc>
+  </image:image>
 </url>
+
 <url>
   <loc>https://basketball-games.io/game/basketball-skills/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basketball-skills.webp</image:loc>
+  </image:image>
 </url>
+
 <url>
   <loc>https://basketball-games.io/game/basketball-slam-dunk/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basketball-slam-dunk.webp</image:loc>
+  </image:image>
 </url>
+
+<url>
+  <loc>https://basketball-games.io/game/basketball-stars/</loc>
+  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basketball-stars.webp</image:loc>
+  </image:image>
+</url>
+
+<url>
+  <loc>https://basketball-games.io/game/basketball-superstars/</loc>
+  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basketball-superstars.webp</image:loc>
+  </image:image>
+</url>
+
 <url>
   <loc>https://basketball-games.io/game/basket-battle/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basket-battle.webp</image:loc>
+  </image:image>
 </url>
+
+<url>
+  <loc>https://basketball-games.io/game/basketbros/</loc>
+  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basketbros.webp</image:loc>
+  </image:image>
+</url>
+
+<url>
+  <loc>https://basketball-games.io/game/basket-champs/</loc>
+  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basket-champs.webp</image:loc>
+  </image:image>
+</url>
+
+<url>
+  <loc>https://basketball-games.io/game/basket-monsterz/</loc>
+  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basket-monsterz.webp</image:loc>
+  </image:image>
+</url>
+
+<url>
+  <loc>https://basketball-games.io/game/basket-random/</loc>
+  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basket-random.webp</image:loc>
+  </image:image>
+</url>
+
 <url>
   <loc>https://basketball-games.io/game/basket-slam-dunk-2/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basket-slam-dunk-2.webp</image:loc>
+  </image:image>
 </url>
+
 <url>
   <loc>https://basketball-games.io/game/basket-swooshes-plus/</loc>
   <lastmod>2025-10-18T05:27:41+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/basket-swooshes-plus.webp</image:loc>
+  </image:image>
 </url>
+
+<url>
+  <loc>https://basketball-games.io/game/blumgi-ball/</loc>
+  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/blumgi-ball.webp</image:loc>
+  </image:image>
+</url>
+
 <url>
   <loc>https://basketball-games.io/game/blumgi-soccer/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/blumgi-soccer.webp</image:loc>
+  </image:image>
 </url>
+
+<url>
+  <loc>https://basketball-games.io/game/bouncy-basketball/</loc>
+  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/bouncy-basketball.webp</image:loc>
+  </image:image>
+</url>
+
 <url>
   <loc>https://basketball-games.io/game/bouncy-dunk/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/bouncy-dunk.webp</image:loc>
+  </image:image>
 </url>
+
 <url>
   <loc>https://basketball-games.io/game/cannon-basketball/</loc>
   <lastmod>2025-10-18T05:27:41+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/cannon-basketball.webp</image:loc>
+  </image:image>
 </url>
+
 <url>
   <loc>https://basketball-games.io/game/cannon-basketball-2/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/cannon-basketball-2.webp</image:loc>
+  </image:image>
 </url>
+
 <url>
   <loc>https://basketball-games.io/game/cannon-basketball-3/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/cannon-basketball-3.webp</image:loc>
+  </image:image>
 </url>
+
 <url>
   <loc>https://basketball-games.io/game/cannon-basketball-4/</loc>
   <lastmod>2025-10-18T05:27:41+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/cannon-basketball-4.webp</image:loc>
+  </image:image>
 </url>
+
+<url>
+  <loc>https://basketball-games.io/game/dunker-2/</loc>
+  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
+  <priority>0.64</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/dunker-2.webp</image:loc>
+  </image:image>
+</url>
+
 <url>
   <loc>https://basketball-games.io/game/dunkers/</loc>
   <lastmod>2025-10-18T05:27:41+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/dunkers.webp</image:loc>
+  </image:image>
 </url>
+
 <url>
   <loc>https://basketball-games.io/game/epic-basketball/</loc>
   <lastmod>2025-10-18T05:27:41+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/epic-basketball.webp</image:loc>
+  </image:image>
 </url>
+
 <url>
   <loc>https://basketball-games.io/game/flappy-dunk/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/flappy-dunk.webp</image:loc>
+  </image:image>
 </url>
+
+<url>
+  <loc>https://basketball-games.io/game/flipper-dunk-3d/</loc>
+  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/flipper-dunk-3d.webp</image:loc>
+  </image:image>
+</url>
+
+<url>
+  <loc>https://basketball-games.io/game/head-basketball/</loc>
+  <lastmod>2025-10-18T05:27:41+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/head-basketball.webp</image:loc>
+  </image:image>
+</url>
+
+<url>
+  <loc>https://basketball-games.io/game/hoop-world-3d/</loc>
+  <lastmod>2025-10-18T05:27:41+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/hoop-world-3d.webp</image:loc>
+  </image:image>
+</url>
+
+<url>
+  <loc>https://basketball-games.io/game/jump-up-3d/</loc>
+  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/jump-up-3d.webp</image:loc>
+  </image:image>
+</url>
+
+<url>
+  <loc>https://basketball-games.io/game/jump-up-3d-mini-basketball/</loc>
+  <lastmod>2025-10-18T05:27:41+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/jump-up-3d-mini-basketball.webp</image:loc>
+  </image:image>
+</url>
+
+<url>
+  <loc>https://basketball-games.io/game/noob-basketball-clicker/</loc>
+  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/noob-basketball-clicker.webp</image:loc>
+  </image:image>
+</url>
+
+<url>
+  <loc>https://basketball-games.io/game/rogue-dunk/</loc>
+  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/rogue-dunk.webp</image:loc>
+  </image:image>
+</url>
+
+<url>
+  <loc>https://basketball-games.io/game/street-ball-jam/</loc>
+  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/street-ball-jam.webp</image:loc>
+  </image:image>
+</url>
+
+<url>
+  <loc>https://basketball-games.io/game/street-ball-star/</loc>
+  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/street-ball-star.webp</image:loc>
+  </image:image>
+</url>
+
+<url>
+  <loc>https://basketball-games.io/game/tap-tap-shots/</loc>
+  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://basketball-games.io/img/tap-tap-shots.webp</image:loc>
+  </image:image>
+</url>
+
+<!-- Static Pages -->
 <url>
   <loc>https://basketball-games.io/about/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
 <url>
   <loc>https://basketball-games.io/privacy/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
 <url>
   <loc>https://basketball-games.io/faq/</loc>
   <lastmod>2025-10-18T05:27:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
 <url>
   <loc>https://basketball-games.io/contact/</loc>
   <lastmod>2025-10-18T05:27:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://basketball-games.io/game/dunker-2/</loc>
-  <lastmod>2025-10-18T05:27:40+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
 
 </urlset>

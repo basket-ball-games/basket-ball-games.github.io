@@ -204,7 +204,7 @@
             // Also close on hardware back (Android) using popstate trick
             var prevHash = location.hash;
             try {
-                history.pushState({ poki_game: 1 }, '');
+                history.pushState({ basketball_game: 1 }, '');
                 var onPop = function () {
                     try { if (screen && screen.orientation && typeof screen.orientation.unlock === 'function') screen.orientation.unlock(); } catch (e) {}
                     close();

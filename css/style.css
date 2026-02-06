@@ -606,7 +606,9 @@ body {
     color: var(--blue-1);
     font: 400 16px/24px var(--fontBody);
     min-width: 314px;
-    overscroll-behavior: none
+    overscroll-behavior: none;
+    overflow: auto;
+    overflow-x: hidden
 }
 
 body.auth {
